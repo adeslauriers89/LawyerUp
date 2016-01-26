@@ -16,7 +16,7 @@
 
 @property (nonatomic) int specialtyType;
 
-//@property (nonatomic) NSDictionary *ratesAndSpecialties;
+@property (nonatomic) NSDictionary *ratesAndSpecialties;
 
 
 

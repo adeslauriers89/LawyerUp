@@ -11,7 +11,7 @@
 @implementation Client
 
 
-- (instancetype)initWithName:(NSString*)clientName problems:(NSString*)problems andSpecialtyNeeded:(NSString*)specialtyNeeded
+- (instancetype)initWithName:(NSString*)clientName problems:(NSString*)problems andSpecialtyNeeded:(specialtyType)specialtyNeeded
 {
     self = [super init];
     if (self) {

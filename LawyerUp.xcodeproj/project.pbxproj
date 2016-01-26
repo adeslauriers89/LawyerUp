@@ -37,7 +37,6 @@
 		A6729A9C1C541FB60020E6F9 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Client.m; path = ../Client.m; sourceTree = "<group>"; };
 		A6729A9E1C541FC10020E6F9 /* Associate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Associate.h; path = ../Associate.h; sourceTree = "<group>"; };
 		A6729A9F1C541FC10020E6F9 /* Associate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Associate.m; path = ../Associate.m; sourceTree = "<group>"; };
-		A6729AA11C5427360020E6F9 /* AssociateDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AssociateDelegate.h; path = ../AssociateDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +74,6 @@
 				A6729A961C541F8C0020E6F9 /* Lawyer.m */,
 				A6729A981C541F9E0020E6F9 /* Practice.h */,
 				A6729A991C541F9E0020E6F9 /* Practice.m */,
-				A6729AA11C5427360020E6F9 /* AssociateDelegate.h */,
 				A6729A9E1C541FC10020E6F9 /* Associate.h */,
 				A6729A9F1C541FC10020E6F9 /* Associate.m */,
 				A6729A9B1C541FB60020E6F9 /* Client.h */,
@@ -263,6 +261,7 @@
 				A6729A941C541F640020E6F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

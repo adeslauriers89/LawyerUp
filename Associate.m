@@ -11,7 +11,30 @@
 @implementation Associate
 
 
+-(void)addClientToClientList:(Client *)client forLawyer:(Lawyer *)lawyer {
     
+    [lawyer.clientList addObject:client];
+    
+}
+
+
+-(int)payableAmountForClient:(Client *)client forLawyer:(Lawyer *)lawyer {
+    
+    if ([client.problems length] > 0 && [[client problems] length] <= 9) {
+        return [lawyer.hourlyRate floatValue] * 5;
+    }
+    
+    if ([client.problems length] > 9 && [client.problems length] <= 20) {
+        return [lawyer.hourlyRate floatValue] * 10;
+    }
+    
+    if ([client.problems length] > 20) {
+        return [lawyer.hourlyRate floatValue] * 25;
+    }
+    
+    return 0;
+    
+}
     
 
 
