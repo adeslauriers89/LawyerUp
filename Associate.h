@@ -10,8 +10,7 @@
 #import "Client.h"
 #import "Lawyer.h"
 
-@interface Associate : NSObject
-
+@interface Associate : NSObject <LawyerDelegate>
 
 
 

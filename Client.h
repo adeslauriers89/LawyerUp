@@ -8,10 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
+#import "Practice.h"
+
 @interface Client : NSObject
+
 
 @property (nonatomic) NSString *clientName;
 @property (nonatomic) NSString *problems;
-@property (nonatomic) NSString *specialtyNeeded;
+@property (nonatomic) specialtyType specialtyNeeded;
+
+
+- (instancetype)initWithName:(NSString*)clientName problems:(NSString*)problems andSpecialtyNeeded:(specialtyType)specialtyNeeded;
+
 
 @end
